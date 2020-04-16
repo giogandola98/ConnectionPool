@@ -1,6 +1,8 @@
 package com.giogandola.gmail.utils;
+
 import java.sql.Connection;
 import java.sql.SQLException;
+
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -14,7 +16,6 @@ public class DbUtil
 		try {
 			// Get DataSource
 			Context initContext  = new InitialContext();
-			System.out.println(initContext.getNameInNamespace());
 			Context envContext  = (Context)initContext.lookup("java:/comp/env");
 			dataSource= (DataSource)envContext.lookup("jdbc/testdb");
 
