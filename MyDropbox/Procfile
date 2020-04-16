@@ -1,1 +1,1 @@
-web: java -cp target/dependency/*.jar webapp.runner.launch.Main target/*.war --enable-naming
+web: java -cp target/dependency/* webapp.runner.launch.Main target/*.war --enable-naming
