@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+	<Resource name="jdbc/testdb" auth="Container"
+		type="javax.sql.DataSource" username="bbd6032aafd0b8" password="95fe8fa0"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://eu-cdbr-west-02.cleardb.net/heroku_6fca6f9bee22f9c"
+		maxActive="8" maxIdle="4" />
+<!-- mysql://bbd6032aafd0b8:95fe8fa0@eu-cdbr-west-02.cleardb.net/heroku_6fca6f9bee22f9c?reconnect=true -->
+</Context>

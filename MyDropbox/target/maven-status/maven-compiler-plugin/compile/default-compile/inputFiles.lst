@@ -1,0 +1,15 @@
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/beans/Document.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/dao/UpdateLayerDAO.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/controllers/LoginValidatorController.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/dao/LoginDAO.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/dao/NextLayerDAO.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/interfaces/UpdateData.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/controllers/ExtractDocumentInfo.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/utils/DbUtil.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/interfaces/LayerInterface.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/controllers/LayerPrinterController.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/utils/Level.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/interfaces/ExtractLayerInterface.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/controllers/Logout.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/beans/Folder.java
+/home/giorgio/eclipse-workspace/MyDropbox/src/com/giogandola/gmail/beans/User.java
