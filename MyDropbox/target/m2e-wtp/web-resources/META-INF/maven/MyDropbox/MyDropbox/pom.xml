@@ -23,6 +23,11 @@
                     <goals><goal>copy</goal></goals>
                     <configuration>
                         <artifactItems>
+                         <artifactItem>
+                                <groupId>org.apache.tomcat</groupId>
+                                <artifactId>tomcat-dbcp</artifactId>
+                                <version>8.0.33</version>
+                            </artifactItem>
                             <artifactItem>
                                 <groupId>com.heroku</groupId>
                                 <artifactId>webapp-runner</artifactId>
@@ -65,16 +70,6 @@
     <groupId>javax.servlet</groupId>
     <artifactId>javax.servlet-api</artifactId>
     <version>4.0.0</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-dbcp2</artifactId>
-    <version>2.1.1</version>
-</dependency>   
-<dependency>
-    <groupId>org.apache.tomcat</groupId>
-    <artifactId>tomcat-dbcp</artifactId>
-    <version>7.0.65</version>
 </dependency> 
   </dependencies>
 </project>
