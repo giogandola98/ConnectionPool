@@ -1,23 +1,25 @@
 package com.giogandola.gmail.utils;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.sql.DataSource;
+import java.sql.*;
+import org.apache.commons.dbcp.*;
 
 public class DbUtil 
 {
-	static DataSource dataSource=null;
+	static BasicDataSource dataSource=null;
 	private static void getMapping()
 	{
 		try {
-			// Get DataSource
-			Context initContext  = new InitialContext();
-			Context envContext  = (Context)initContext.lookup("java:/comp/env");
-			dataSource= (DataSource)envContext.lookup("jdbc/testdb");
+			  URI dbUri = new URI("mysql://bbd6032aafd0b8:95fe8fa0@eu-cdbr-west-02.cleardb.net/heroku_6fca6f9bee22f9c");
+			  String dbUrl = "jdbc:mysql://" + dbUri.getHost() + dbUri.getPath();
+			  connectionPool = new BasicDataSource();
+
+			  if (dbUri.getUserInfo() != null) {
+			    connectionPool.setUsername(dbUri.getUserInfo().split(":")[0]);
+			    connectionPool.setPassword(dbUri.getUserInfo().split(":")[1]);
+			  }
+			  connectionPool.setDriverClassName("com.mysql.cj.jdbc.Driver");
+			  connectionPool.setUrl(dbUrl);
+			  connectionPool.setInitialSize(1);
 
 			
 		} catch (NamingException e) {
