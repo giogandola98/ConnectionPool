@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --path heroku_libs/ --port $PORT target/*.war --enable-naming
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --includes target/MyDropbox-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-7.0.65.jar --port $PORT target/*.war --enable-naming
