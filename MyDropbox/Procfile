@@ -1,1 +1,18 @@
-web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --includes target/dependecy/*.jar --port $PORT target/*.war --enable-naming
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+web: java -jar target/dependency/webapp-runner.jar target/*.war --enable-naming
+
+=======
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --includes /target/MyDropbox-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-7.0.65.jar --port $PORT target/*.war --enable-naming
+>>>>>>> parent of 8007b7e... Revert "mod procfile"
+=======
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --includes /target/MyDropbox-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-7.0.65.jar --port $PORT target/*.war --enable-naming
+>>>>>>> parent of 8007b7e... Revert "mod procfile"
+=======
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --includes /target/MyDropbox-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-7.0.65.jar --port $PORT target/*.war --enable-naming
+>>>>>>> parent of 8007b7e... Revert "mod procfile"
+=======
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --includes /target/MyDropbox-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-7.0.65.jar --port $PORT target/*.war --enable-naming
+>>>>>>> parent of 8007b7e... Revert "mod procfile"
